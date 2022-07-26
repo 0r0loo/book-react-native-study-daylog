@@ -14,6 +14,8 @@ function FeedsScreen() {
     }
   };
 
+  console.log(hidden);
+
   return (
     <View style={styles.block}>
       <FeedList logs={logs} onScrolledToBottom={onScrolledToBottom} />
